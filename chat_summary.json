@@ -1,63 +1,97 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1722872375",
+        "role": "chat_acknowledge",
+        "content": "Alright, adding a button with the text \"hey there\".",
+        "message_id": "guest05082024163759",
+        "timestamp": "05082024163801",
         "component_file_name": "",
-        "div_id": ""
-    },
-    {
-        "role": "user",
-        "content": "add a button that says hello world",
-        "timestamp": "05082024154006",
-        "message_id": "guest05082024154004"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "Alright, adding a button with text \"Hello World\".",
-        "timestamp": "05082024154006",
-        "message_id": "guest05082024154004"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive dashboard to display recent transactions\", \"checked\": true}, {\"feature\": \"Search bar to filter transactions by address or hash\", \"checked\": false}, {\"feature\": \"Real-time notifications for new transactions\", \"checked\": true}, {\"feature\": \"Customizable themes for user interface\", \"checked\": false}, {\"feature\": \"Detailed transaction history view with filtering options\", \"checked\": true}, {\"feature\": \"Dark mode option for better visibility in low light\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 104, \"time_taken\": \"0:00:04.770628\"}",
-        "timestamp": "05082024154011",
-        "message_id": "guest05082024154004"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned on the app's interface?\", \"option1\": \"In the top navigation bar\", \"option2\": \"At the bottom of the screen\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is pressed?\", \"option1\": \"Display a pop-up message with 'Hello World'\", \"option2\": \"Navigate to a new screen with 'Hello World' message\"}], \"input_token_count\": 261, \"output_token_count\": 108, \"time_taken\": \"0:00:04.862682\"}",
-        "timestamp": "05082024154012",
-        "message_id": "guest05082024154004"
-    },
-    {
-        "role": "user",
-        "content": "add a button that says hello world",
-        "timestamp": "05082024163713",
-        "message_id": "guest05082024163712"
-    },
-    {
-        "role": "chat_acknowledge",
-        "content": "You got it! Adding a button that says \"Hello World\".",
-        "timestamp": "05082024163714",
-        "message_id": "guest05082024163712"
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned within your app?\", \"option1\": \"At the bottom of the main screen\", \"option2\": \"On the navigation bar\"}, {\"question 2\": \"Do you have any specific color or style preferences for the 'Hello World' button?\", \"option1\": \"Match it with the app's primary color scheme\", \"option2\": \"Use a custom color or style\"}], \"input_token_count\": 309, \"output_token_count\": 104, \"time_taken\": \"0:00:03.771911\"}",
-        "timestamp": "05082024163718",
-        "message_id": "guest05082024163712"
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a 'Search Transactions' field to allow users to input specific transaction hashes or addresses\", \"checked\": true}, {\"feature\": \"Implement a 'Recent Transactions' list to display the latest Ethereum transactions\", \"checked\": true}, {\"feature\": \"Introduce a 'Favorites' feature for users to bookmark interesting transactions\", \"checked\": false}, {\"feature\": \"Add a real-time transaction notification system to alert users of new transactions\", \"checked\": true}, {\"feature\": \"Implement a filter option for transactions based on value, date, or status\", \"checked\": false}, {\"feature\": \"Incorporate Ethereum price chart for trend analysis\", \"checked\": false}], \"input_token_count\": 263, \"output_token_count\": 140, \"time_taken\": \"0:00:06.136110\"}",
-        "timestamp": "05082024163720",
-        "message_id": "guest05082024163712"
+        "div_id": "",
+        "div_action": ""
     },
     {
         "role": "user",
         "content": "add a button that says hey there",
+        "message_id": "guest05082024163759",
+        "timestamp": "05082024163801",
+        "component_file_name": "simple_cta_component_1722872375",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a 'Search Transactions' field to allow users to input specific transaction hashes or addresses\", \"checked\": true}, {\"feature\": \"Implement a 'Recent Transactions' list to display the latest Ethereum transactions\", \"checked\": true}, {\"feature\": \"Introduce a 'Favorites' feature for users to bookmark interesting transactions\", \"checked\": false}, {\"feature\": \"Add a real-time transaction notification system to alert users of new transactions\", \"checked\": true}, {\"feature\": \"Implement a filter option for transactions based on value, date, or status\", \"checked\": false}, {\"feature\": \"Incorporate Ethereum price chart for trend analysis\", \"checked\": false}], \"input_token_count\": 263, \"output_token_count\": 140, \"time_taken\": \"0:00:06.136110\"}",
+        "message_id": "guest05082024163712",
+        "timestamp": "05082024163720",
+        "component_file_name": "simple_footer_component_1722872375",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned within your app?\", \"option1\": \"At the bottom of the main screen\", \"option2\": \"On the navigation bar\"}, {\"question 2\": \"Do you have any specific color or style preferences for the 'Hello World' button?\", \"option1\": \"Match it with the app's primary color scheme\", \"option2\": \"Use a custom color or style\"}], \"input_token_count\": 309, \"output_token_count\": 104, \"time_taken\": \"0:00:03.771911\"}",
+        "message_id": "guest05082024163712",
+        "timestamp": "05082024163718",
+        "component_file_name": "simple_footer_component_1722872375",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "You got it! Adding a button that says \"Hello World\".",
+        "message_id": "guest05082024163712",
+        "timestamp": "05082024163714",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest05082024163712",
+        "timestamp": "05082024163713",
+        "component_file_name": "simple_footer_component_1722872375",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hello World' button to be positioned on the app's interface?\", \"option1\": \"In the top navigation bar\", \"option2\": \"At the bottom of the screen\"}, {\"question 2\": \"What action should occur when the 'Hello World' button is pressed?\", \"option1\": \"Display a pop-up message with 'Hello World'\", \"option2\": \"Navigate to a new screen with 'Hello World' message\"}], \"input_token_count\": 261, \"output_token_count\": 108, \"time_taken\": \"0:00:04.862682\"}",
+        "message_id": "guest05082024154004",
+        "timestamp": "05082024154012",
+        "component_file_name": "simple_header_component_1722872375",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive dashboard to display recent transactions\", \"checked\": true}, {\"feature\": \"Search bar to filter transactions by address or hash\", \"checked\": false}, {\"feature\": \"Real-time notifications for new transactions\", \"checked\": true}, {\"feature\": \"Customizable themes for user interface\", \"checked\": false}, {\"feature\": \"Detailed transaction history view with filtering options\", \"checked\": true}, {\"feature\": \"Dark mode option for better visibility in low light\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 104, \"time_taken\": \"0:00:04.770628\"}",
+        "message_id": "guest05082024154004",
+        "timestamp": "05082024154011",
+        "component_file_name": "simple_header_component_1722872375",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_acknowledge",
+        "content": "Alright, adding a button with text \"Hello World\".",
+        "message_id": "guest05082024154004",
+        "timestamp": "05082024154006",
+        "component_file_name": "",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "user",
+        "content": "add a button that says hello world",
+        "message_id": "guest05082024154004",
+        "timestamp": "05082024154006",
+        "component_file_name": "simple_header_component_1722872375",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "summary",
+        "content": "Can you describe the project a bit more?",
         "timestamp": "05082024163801",
         "message_id": "guest05082024163759"
     }
