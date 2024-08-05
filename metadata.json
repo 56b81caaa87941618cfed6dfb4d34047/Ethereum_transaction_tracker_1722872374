@@ -4,5 +4,6 @@
     "project_description": "add an app to find new ethereum transactions",
     "creation_time": "2024-08-05 15:39:34.115026",
     "current_state": "The current state of the application has a navbar and a header",
-    "selected_starter_template_id": "landwind"
+    "selected_starter_template_id": "landwind",
+    "frontend_theme_prompt": "The image features a captivating fantasy landscape with a dominant color scheme of pink and purple hues, creating a surreal, otherworldly atmosphere. The style combines ethereal lighting and smooth, gradient color transitions, emphasizing the dreamlike scenery of planets and jagged mountains."
 }
