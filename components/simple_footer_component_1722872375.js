@@ -16,7 +16,10 @@ Vue.component("simple_footer_component_1722872375", {
                 <div class="flex">
                     <div id="footer-text" class="flex-1 block text-sm text-center text-gray-500 dark:text-gray-400">
                         Stay ahead of the curve with our cutting-edge Ethereum transaction monitoring service. Powered by leading blockchain technology, EtherScan provides lightning-fast updates on the latest Ether movements across the network. Never miss a beat with customizable alerts and detailed analytics at your fingertips. Simplify your workflow and maximize your edge in the dynamic world of decentralized finance.
-                    </div>
+                        Stay ahead of the curve with our cutting-edge Ethereum transaction monitoring service. Powered by leading blockchain technology, EtherScan provides lightning-fast updates on the latest Ether movements across the network. Never miss a beat with customizable alerts and detailed analytics at your fingertips. Simplify your workflow and maximize your edge in the dynamic world of decentralized finance.
+                        <button class="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Hello World
+                        </button>
                 </div>
             </div>
         </footer> 
