@@ -1,5 +1,14 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Interactive dashboard to display recent transactions\", \"checked\": true}, {\"feature\": \"Search bar to filter transactions by address or hash\", \"checked\": false}, {\"feature\": \"Real-time notifications for new transactions\", \"checked\": true}, {\"feature\": \"Customizable themes for user interface\", \"checked\": false}, {\"feature\": \"Detailed transaction history view with filtering options\", \"checked\": true}, {\"feature\": \"Dark mode option for better visibility in low light\", \"checked\": false}], \"input_token_count\": 215, \"output_token_count\": 104, \"time_taken\": \"0:00:04.770628\"}",
+        "message_id": "guest05082024154004",
+        "timestamp": "05082024154011",
+        "component_file_name": "simple_header_component_1722872375",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Alright, adding a button with text \"Hello World\".",
         "message_id": "guest05082024154004",
