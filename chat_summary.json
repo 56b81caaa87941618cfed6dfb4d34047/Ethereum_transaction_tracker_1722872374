@@ -1,5 +1,23 @@
 [
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"add a search bar to filter transactions by address, hash, or value\", \"checked\": true}, {\"feature\": \"implement real-time transaction notifications\", \"checked\": false}, {\"feature\": \"add a toggle to switch between light and dark mode\", \"checked\": true}, {\"feature\": \"integrate pagination for transaction listings\", \"checked\": true}, {\"feature\": \"provide detailed transaction analytics on a separate page\", \"checked\": false}, {\"feature\": \"add a 'Favorites' section to bookmark important transactions\", \"checked\": true}], \"input_token_count\": 288, \"output_token_count\": 114, \"time_taken\": \"0:00:03.347072\"}",
+        "message_id": "guest05082024163759",
+        "timestamp": "05082024163804",
+        "component_file_name": "simple_cta_component_1722872375",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
+        "role": "chat_qna",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the 'Hey There' button to be positioned on the app?\", \"option1\": \"Below the 'Hello World' button\", \"option2\": \"Replace the 'Hello World' button\"}, {\"question 2\": \"What action should be triggered when the 'Hey There' button is clicked?\", \"option1\": \"Display a greeting message\", \"option2\": \"Open a new page\"}], \"input_token_count\": 334, \"output_token_count\": 98, \"time_taken\": \"0:00:02.884648\"}",
+        "message_id": "guest05082024163759",
+        "timestamp": "05082024163804",
+        "component_file_name": "simple_cta_component_1722872375",
+        "div_id": "",
+        "div_action": ""
+    },
+    {
         "role": "chat_acknowledge",
         "content": "Alright, adding a button with the text \"hey there\".",
         "message_id": "guest05082024163759",
@@ -72,27 +90,9 @@
         "div_action": ""
     },
     {
-        "role": "chat_acknowledge",
-        "content": "Alright, adding a button with text \"Hello World\".",
-        "message_id": "guest05082024154004",
-        "timestamp": "05082024154006",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "user",
-        "content": "add a button that says hello world",
-        "message_id": "guest05082024154004",
-        "timestamp": "05082024154006",
-        "component_file_name": "simple_header_component_1722872375",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
         "role": "summary",
-        "content": "Can you describe the project a bit more?",
-        "timestamp": "05082024163801",
+        "content": "In the conversation, the user instructed the AI to add a button with the text \"Hello World\". The AI not only acknowledged this request but also proceeded to ask the user for a more detailed description of the project. This indicates that the AI aimed to understand the project better, potentially to ensure that the addition of the new button aligns well with the overall scope and requirements.",
+        "timestamp": "05082024163804",
         "message_id": "guest05082024163759"
     }
 ]
